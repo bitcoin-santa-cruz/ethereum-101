@@ -35,7 +35,7 @@ There's a large amount of data that has to be generated to get things rolling, s
 5. Since entering in commands amidst that mess would be an unpleasant task, use the extraConsole script to get a fresh one minus the noise.  
 6. Make another account.  
 7. Set the default account again.  
-8. Enter "personal.unlockAccount[eth.defaultAccount]" to unlock it.  
+8. Enter "personal.unlockAccount(eth.defaultAccount)" to unlock it.  
 9. Enter "eth.sendTransaction({to: eth.accounts[1], value: 42})" to send money from your default account to your new one.  
 Enter "eth.getBalance(eth.accounts[1])" to see that the transfer succeeded.  
 
