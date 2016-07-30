@@ -21,7 +21,7 @@ Paste in this contract to have something quicker to work with than the original 
         }
     }
 
-Click the red "Create" button in the testing/deployment menu (this one: http://imgur.com/a/5aO5f, if it's not there then wait for the contract to finish compiling).<sup>2</sup>  
+Click the red<sup>2</sup> "Create" button in the testing/deployment menu (this one: http://imgur.com/a/5aO5f, if it's not there then wait for the contract to finish compiling).  
 Enter "Hello Ethereum" (with quotes!) into the input field to the right of the red "addEntry" button. Then click the "addEntry" button to execute a transaction<sup>3</sup> that uses the function.  
 Enter "0" (quotes optional) next to "entries", then click it to make a call<sup>4</sup> to the function and read back what you entered.
 
