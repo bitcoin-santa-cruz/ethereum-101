@@ -2,7 +2,7 @@
 Geth (Go Ethereum), the latest versions are available here: https://github.com/ethereum/go-ethereum/releases  
 Grab the flavor for your operating system of choice.
 
-Fancy launch scripts and a genesis file. Both provided in the "geth-toolkit" folder (geth not included).  
+Fancy launch scripts and a genesis file. Both provided in the `geth-toolkit` folder (geth not included).  
 Download this repo to grab it all in one fell swoop: https://github.com/bitcoin-santa-cruz/ethereum-101/archive/master.zip  
 
 That's it for now.<sup>1</sup>
@@ -11,7 +11,7 @@ That's it for now.<sup>1</sup>
 
 The first step can be a daunting one when it's still unfamiliar.  
 Add `geth` to your path.  
-Searching "add to path {your operating system}" with the appropriate substitution and minus the braces and quotes should bring up some decent instructions to learn from.
+Searching `add to path <your operating system>` with the appropriate substitution and minus the braces and quotes should bring up some decent instructions to learn from.
 
 Next is setting up a private blockchain to test with.
 Go into the provided `geth-toolkit` and launch the appropriate setupChain script:  
@@ -27,7 +27,7 @@ For a more detailed look at what's going on, check out [Creating a Private Chain
 
 Now for some drills on doing basic actions using `geth` (keep in mind that `geth` is geared towards development unlike *Mist* which targets civilian use): 
  
-1. Once geth is running and has its console ready for your input, enter `eth.accounts`. Unless you got fancy, this should come back with "[]" showing there are none yet.  
+1. Once geth is running and has its console ready for your input, enter `eth.accounts`. Unless you got fancy, this should come back with `[]` showing there are none yet.  
 2. Enter `personal.newAccount()` to make one. Probably leave the password blank since this private blockchain doesn't put anything valuable at risk and accounts on it are throwaways.  
 If you enter `eth.accounts` again, you should see your newly created account displayed.  
 3. To get some money to play with, enter `miner.start()` and wait a little while for the rewards to start rolling in. Except right now it probably just gives an error since it doesn't know where to put those rewards. If your machine cries for mercy, then `miner.stop()` will provide it. Just remember that more mining is necessary anytime you make a new transaction in order to confirm it.  
