@@ -1,5 +1,10 @@
-# ethereum-101
+Download a copy of this repository to use its full functionality.  
+It's best to follow along with the .md files on GitHub or with something else that displays their formatting correctly.  
+The other files are more useful on your local machine.  
 
-Download the latest release of Geth (1.4.10 as of writing this) for whatever platform you'll be using: https://github.com/ethereum/go-ethereum/releases
+Start with "writing-a-smart-contract.md" or "using-geth.md".  
+Once you've made it through both, you'll be ready for "contract-deployment-and-web3.md".  
+Enjoy!  
 
-Then follow the instructions for running a full node on Ethereum's test network: https://github.com/ethereum/go-ethereum#full-node-on-the-ethereum-test-network The important thing for now is getting the test chain synced.
+If you have any actionable feedback, please open up an issue on this repository.  
+This repository is also open to contributions, submit a pull request today!  

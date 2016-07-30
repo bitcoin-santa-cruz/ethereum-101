@@ -1,11 +1,15 @@
 ### Main Resources
 
 Online editor with a dash of IDE: https://ethereum.github.io/browser-solidity<sup>1</sup>  
+
 Documentation: http://solidity.readthedocs.io/
 
 #### Quick Intro to Browser-Solidity
 
-First Screen: http://imgur.com/a/qK9KM
+First Screen: http://imgur.com/a/qK9KM  
+
+Testing and Deployment Menu: http://imgur.com/a/5aO5f  
+This is where most of the action happens that isn't writing code.
 
 Hit the "New File" button in the top-left corner of the page.  
 Paste in this contract to have something quicker to work with than the original liquid voting example:
@@ -21,7 +25,7 @@ Paste in this contract to have something quicker to work with than the original 
         }
     }
 
-Click the red<sup>2</sup> "Create" button in the testing/deployment menu (this one: http://imgur.com/a/5aO5f, if it's not there then wait for the contract to finish compiling).  
+Click the red "Create" button in the testing/deployment menu.<sup>2</sup>  
 Enter "Hello Ethereum" (with quotes!) into the input field to the right of the red "addEntry" button. Then click the "addEntry" button to execute a transaction<sup>3</sup> that uses the function.  
 Enter "0" (quotes optional) next to "entries", then click it to make a call<sup>4</sup> to the function and read back what you entered.
 
