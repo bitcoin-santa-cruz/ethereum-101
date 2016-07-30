@@ -2,7 +2,8 @@
 Geth (Go Ethereum), the latest versions are available here: https://github.com/ethereum/go-ethereum/releases  
 Grab the flavor for your operating system of choice.
 
-Fancy launch scripts and a genesis file. Both provided in the "geth-toolkit" folder (geth not included).
+Fancy launch scripts and a genesis file. Both provided in the "geth-toolkit" folder (geth not included).  
+Download this repo to grab it all in one fell swoop: https://github.com/bitcoin-santa-cruz/ethereum-101/archive/master.zip  
 
 That's it for now.<sup>1</sup>
 
@@ -17,6 +18,8 @@ Go into the provided `geth-toolkit` and launch the appropriate setupChain script
 
 * `setupChain.sh` for Linux and Mac OS X  
 * `setupChain.ps1` for Windows 8/10 (for older Windows versions rename `setupChain.ps1` to .`setupChain.bat`)
+
+If `geth` spits out a couple messages, exits, and you now have a freshly created `testchain` folder, then everything probably did what it was supposed to.
 
 Follow that up by running the correct version (extension) of the `runChain` command.
 
