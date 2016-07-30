@@ -1,2 +1,2 @@
 #!/bin/bash
-geth attach
+geth attach http://localhost:8545
