@@ -2,7 +2,8 @@
 Geth (Go Ethereum), the latest versions are available here: https://github.com/ethereum/go-ethereum/releases  
 Grab the flavor for your operating system of choice.
 
-Fancy launch scripts and a genesis file. Both provided in the "geth-toolkit" folder (geth not included).
+Fancy launch scripts and a genesis file. Both provided in the "geth-toolkit" folder (geth not included).  
+Download this repo to grab it all in one fell swoop: https://github.com/bitcoin-santa-cruz/ethereum-101/archive/master.zip  
 
 That's it for now.<sup>1</sup>
 
@@ -12,10 +13,11 @@ The first step can be a daunting one when it's still unfamiliar.
 Add geth to your path.  
 Searching "add to path {your operating system}" with the appropriate substitution and minus the braces and quotes should bring up some decent instructions to learn from.
 
-Next is setting up a private blockchain to test with.
+Next is setting up a private blockchain to test with.  
 Go into the provided geth-toolkit and launch the appropriate setupChain script:  
 .sh for Linux (and I think OSX as well but my experience with it is very limited, contributions to improve these instructions are invited!)  
-.ps1 for Windows 8/10 (for older Windows versions you can rename .ps1 to .bat)
+.ps1 for Windows 8/10 (for older Windows versions you can rename .ps1 to .bat)  
+If geth spits out a couple messages, exits, and you now have a freshly created testchain folder, then everything probably did what it was supposed to.
 
 Follow that up with the corresponding runChain.
 
